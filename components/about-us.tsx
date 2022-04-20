@@ -14,21 +14,17 @@ const AboutUs: React.FC = () => {
       <div className="container mx-auto px-11 text-center mt-32 mb-16">
         <h2 className="font-bold mb-14">Our Team</h2>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-20">
-          <Member
-            id="1"
-            name="Prabin Kumar Das"
-            designation="Founder and CEO"
-          />
-          <Member id="1" name="Bishwajyoti Roy" designation="Founder and CTO" />
+          <Member id="1" name="Prabin Kumar Das" designation="Thor" />
+          <Member id="1" name="Bishwajyoti Roy" designation="Iron Man" />
           <Member
             id="1"
             name="Anirvan Kumar Roy"
-            designation="Founder and CEO"
+            designation="Captain America"
           />
           <Member
             id="1"
             name="Meenakshi Jaiswal"
-            designation="Founder and CEO"
+            designation="Captain Marvel"
           />
         </div>
       </div>
