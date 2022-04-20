@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Tile, { TileBackground, TileContent, TileWrapper } from "./tile";
 import { WorkBackground, WorkContainer, WorkLeft, WorkRight } from "./work";
 
@@ -19,7 +20,12 @@ const Works: React.FC = () => {
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
-                <span>Foo {progress}</span>
+                <Image
+                  src="/assets/twisted-shape.png"
+                  width={1400}
+                  height={1400}
+                  alt="twisted shape"
+                />
               </WorkRight>
             </WorkContainer>
           )}
@@ -35,7 +41,12 @@ const Works: React.FC = () => {
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
-                <span>Bar {progress}</span>
+                <Image
+                  src="/assets/twisted-shape.png"
+                  width={1400}
+                  height={1400}
+                  alt="twisted shape"
+                />
               </WorkRight>
             </WorkContainer>
           )}
@@ -51,7 +62,12 @@ const Works: React.FC = () => {
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
-                <span>Zee {progress}</span>
+                <Image
+                  src="/assets/twisted-shape.png"
+                  width={1400}
+                  height={1400}
+                  alt="twisted shape"
+                />
               </WorkRight>
             </WorkContainer>
           )}
