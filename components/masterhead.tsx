@@ -32,7 +32,7 @@ const MasterHead: React.FC = () => {
         loop
         muted
         playsInline
-        className="absolute w-full h-full object-cover"
+        className="absolute w-full h-full object-cover bg-black"
         poster="/assets/masterhead-poster.png"
       >
         <source src="/assets/final-v1-small.mp4" type="video/mp4" />
